@@ -31,7 +31,7 @@
   "inbounds": [
     {
       "listen": "0.0.0.0",
-      "port": 443,
+      "port": 2052,
       "protocol": "vless",
       "settings": {
         "clients": [
