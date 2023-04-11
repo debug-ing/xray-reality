@@ -6,7 +6,7 @@ sudo apt-get install -y qrencode
 
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --beta
 
-json=$(curl -s https://raw.githubusercontent.com/sajjaddg/xray-reality/master/config.json)
+json=$(curl -s https://raw.githubusercontent.com/debug-ing/xray-reality/master/config.json)
 
 keys=$(xray x25519)
 pk=$(echo "$keys" | awk '/Private key:/ {print $3}')
